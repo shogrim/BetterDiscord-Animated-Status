@@ -31,9 +31,9 @@ class AnimatedStatus {
     this.modules = this.modules || (() => {
       let m = [];
       webpackChunkdiscord_app.push([['AnimatedStatus'], {}, e => {
-        m = m.concat(Object.values(e.c || {}));
-      }]);
-      return m;
+      m = m.concat(Object.values(e.c || {}));
+    }]);
+    return m;
     })();
 
     this.status = {
